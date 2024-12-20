@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="22" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-20T16:56:34 IST" name="Suite" finished-at="2024-12-20T16:58:39 IST" duration-ms="125569">
+    <groups>
+    </groups>
+    <test started-at="2024-12-20T16:56:34 IST" name="Test" finished-at="2024-12-20T16:58:39 IST" duration-ms="125569">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@2e005c4b]" started-at="2024-12-20T16:56:40 IST" name="setUp" finished-at="2024-12-20T16:56:43 IST" duration-ms="3269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2e005c4b]" started-at="2024-12-20T16:56:43 IST" name="setup" finished-at="2024-12-20T16:56:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginSubmitButtonVisible()[pri:1, instance:tests.LoginTest@2e005c4b]" started-at="2024-12-20T16:56:43 IST" name="testLoginSubmitButtonVisible" finished-at="2024-12-20T16:56:43 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSubmitButtonVisible -->
+        <test-method signature="testLoginSubmitButtonClickable()[pri:2, instance:tests.LoginTest@2e005c4b]" started-at="2024-12-20T16:56:43 IST" name="testLoginSubmitButtonClickable" finished-at="2024-12-20T16:56:43 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSubmitButtonClickable -->
+        <test-method signature="testInvalidLogin()[pri:3, instance:tests.LoginTest@2e005c4b]" started-at="2024-12-20T16:56:43 IST" name="testInvalidLogin" finished-at="2024-12-20T16:56:54 IST" duration-ms="11296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method signature="testValidLogin()[pri:4, instance:tests.LoginTest@2e005c4b]" started-at="2024-12-20T16:56:54 IST" name="testValidLogin" finished-at="2024-12-20T16:56:59 IST" duration-ms="4104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.ContactDisplayTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactDisplayTest@5ffead27]" started-at="2024-12-20T16:57:36 IST" name="setUp" finished-at="2024-12-20T16:57:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testContactDetailsDisplayedCorrectly()[pri:1, instance:tests.ContactDisplayTest@5ffead27]" started-at="2024-12-20T16:57:36 IST" name="testContactDetailsDisplayedCorrectly" finished-at="2024-12-20T16:57:37 IST" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactDetailsDisplayedCorrectly -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ContactDisplayTest@5ffead27]" started-at="2024-12-20T16:57:37 IST" name="takeScreenshotOnFailure" finished-at="2024-12-20T16:57:37 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testContactDetailsDisplayedCorrectly status=SUCCESS method=ContactDisplayTest.testContactDetailsDisplayedCorrectly()[pri:1, instance:tests.ContactDisplayTest@5ffead27] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="testContactsAlphabeticalOrderByLastName()[pri:2, instance:tests.ContactDisplayTest@5ffead27]" started-at="2024-12-20T16:57:37 IST" name="testContactsAlphabeticalOrderByLastName" finished-at="2024-12-20T16:57:38 IST" duration-ms="749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactsAlphabeticalOrderByLastName -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ContactDisplayTest@5ffead27]" started-at="2024-12-20T16:57:38 IST" name="takeScreenshotOnFailure" finished-at="2024-12-20T16:57:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testContactsAlphabeticalOrderByLastName status=SUCCESS method=ContactDisplayTest.testContactsAlphabeticalOrderByLastName()[pri:2, instance:tests.ContactDisplayTest@5ffead27] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="testPhoneNumberWithExtensions()[pri:3, instance:tests.ContactDisplayTest@5ffead27]" started-at="2024-12-20T16:57:38 IST" name="testPhoneNumberWithExtensions" finished-at="2024-12-20T16:57:39 IST" duration-ms="937" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Phone number does not have the correct extension: tom.doe@example.com expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Phone number does not have the correct extension: tom.doe@example.com expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at tests.ContactDisplayTest.testPhoneNumberWithExtensions(ContactDisplayTest.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPhoneNumberWithExtensions -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.ContactDisplayTest@5ffead27]" started-at="2024-12-20T16:57:39 IST" name="takeScreenshotOnFailure" finished-at="2024-12-20T16:57:39 IST" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPhoneNumberWithExtensions status=FAILURE method=ContactDisplayTest.testPhoneNumberWithExtensions()[pri:3, instance:tests.ContactDisplayTest@5ffead27] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+      </class> <!-- tests.ContactDisplayTest -->
+      <class name="tests.ContactEditingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactEditingTest@6356695f]" started-at="2024-12-20T16:57:39 IST" name="setUp" finished-at="2024-12-20T16:57:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPageRedirectsOnContactClick()[pri:1, instance:tests.ContactEditingTest@6356695f]" started-at="2024-12-20T16:57:39 IST" name="testPageRedirectsOnContactClick" finished-at="2024-12-20T16:57:41 IST" duration-ms="2392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageRedirectsOnContactClick -->
+        <test-method signature="testEditExistingContactDetails()[pri:2, instance:tests.ContactEditingTest@6356695f]" started-at="2024-12-20T16:57:41 IST" name="testEditExistingContactDetails" finished-at="2024-12-20T16:57:51 IST" duration-ms="9811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditExistingContactDetails -->
+        <test-method signature="testUneditedFieldsAreUnaffected()[pri:3, instance:tests.ContactEditingTest@6356695f]" started-at="2024-12-20T16:57:51 IST" name="testUneditedFieldsAreUnaffected" finished-at="2024-12-20T16:58:02 IST" duration-ms="11066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUneditedFieldsAreUnaffected -->
+        <test-method signature="testSavingEmptyFields()[pri:4, instance:tests.ContactEditingTest@6356695f]" started-at="2024-12-20T16:58:02 IST" name="testSavingEmptyFields" finished-at="2024-12-20T16:58:17 IST" duration-ms="14538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSavingEmptyFields -->
+      </class> <!-- tests.ContactEditingTest -->
+      <class name="tests.SignupTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignupTest@74e52303]" started-at="2024-12-20T16:56:34 IST" name="setUp" finished-at="2024-12-20T16:56:38 IST" duration-ms="4318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SignupTest@74e52303]" started-at="2024-12-20T16:56:38 IST" name="setup" finished-at="2024-12-20T16:56:38 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSignupButtonVisible()[pri:1, instance:tests.SignupTest@74e52303]" started-at="2024-12-20T16:56:38 IST" name="testSignupButtonVisible" finished-at="2024-12-20T16:56:38 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignupButtonVisible -->
+        <test-method signature="testSignupButtonClickable()[pri:2, instance:tests.SignupTest@74e52303]" started-at="2024-12-20T16:56:38 IST" name="testSignupButtonClickable" finished-at="2024-12-20T16:56:38 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignupButtonClickable -->
+        <test-method signature="testSignupButtonClick()[pri:3, instance:tests.SignupTest@74e52303]" started-at="2024-12-20T16:56:38 IST" name="testSignupButtonClick" finished-at="2024-12-20T16:56:39 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignupButtonClick -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.SignupTest@74e52303]" started-at="2024-12-20T16:56:39 IST" name="closeBrowser" finished-at="2024-12-20T16:56:40 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.SignupTest -->
+      <class name="tests.ContactAdditionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactAdditionTest@4567f35d]" started-at="2024-12-20T16:56:59 IST" name="setUp" finished-at="2024-12-20T16:56:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddContactButtonVisibility()[pri:1, instance:tests.ContactAdditionTest@4567f35d]" started-at="2024-12-20T16:56:59 IST" name="testAddContactButtonVisibility" finished-at="2024-12-20T16:56:59 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddContactButtonVisibility -->
+        <test-method signature="testAddContactWithAllDetails()[pri:2, instance:tests.ContactAdditionTest@4567f35d]" started-at="2024-12-20T16:56:59 IST" name="testAddContactWithAllDetails" finished-at="2024-12-20T16:57:20 IST" duration-ms="21248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddContactWithAllDetails -->
+        <test-method signature="testAddContactWithRequiredDetails()[pri:3, instance:tests.ContactAdditionTest@4567f35d]" started-at="2024-12-20T16:57:20 IST" name="testAddContactWithRequiredDetails" finished-at="2024-12-20T16:57:27 IST" duration-ms="6911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddContactWithRequiredDetails -->
+        <test-method signature="testInvalidDateOfBirth()[pri:4, instance:tests.ContactAdditionTest@4567f35d]" started-at="2024-12-20T16:57:27 IST" name="testInvalidDateOfBirth" finished-at="2024-12-20T16:57:36 IST" duration-ms="9293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidDateOfBirth -->
+      </class> <!-- tests.ContactAdditionTest -->
+      <class name="tests.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LogoutTest@359f7cdf]" started-at="2024-12-20T16:58:37 IST" name="setUp" finished-at="2024-12-20T16:58:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogoutButtonVisible()[pri:1, instance:tests.LogoutTest@359f7cdf]" started-at="2024-12-20T16:58:37 IST" name="testLogoutButtonVisible" finished-at="2024-12-20T16:58:37 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutButtonVisible -->
+        <test-method signature="testLogoutRedirectsToLoginPage()[pri:2, instance:tests.LogoutTest@359f7cdf]" started-at="2024-12-20T16:58:37 IST" name="testLogoutRedirectsToLoginPage" finished-at="2024-12-20T16:58:39 IST" duration-ms="2510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutRedirectsToLoginPage -->
+      </class> <!-- tests.LogoutTest -->
+      <class name="tests.ContactDeletionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ContactDeletionTest@4f18837a]" started-at="2024-12-20T16:58:17 IST" name="setUp" finished-at="2024-12-20T16:58:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteContactPopsUpAlert()[pri:1, instance:tests.ContactDeletionTest@4f18837a]" started-at="2024-12-20T16:58:17 IST" name="testDeleteContactPopsUpAlert" finished-at="2024-12-20T16:58:24 IST" duration-ms="7599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteContactPopsUpAlert -->
+        <test-method signature="testDeleteSingleContact()[pri:2, instance:tests.ContactDeletionTest@4f18837a]" started-at="2024-12-20T16:58:24 IST" name="testDeleteSingleContact" finished-at="2024-12-20T16:58:30 IST" duration-ms="5655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteSingleContact -->
+        <test-method signature="testDeletionDoesNotAffectOtherContacts()[pri:3, instance:tests.ContactDeletionTest@4f18837a]" started-at="2024-12-20T16:58:30 IST" name="testDeletionDoesNotAffectOtherContacts" finished-at="2024-12-20T16:58:37 IST" duration-ms="6515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletionDoesNotAffectOtherContacts -->
+      </class> <!-- tests.ContactDeletionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
